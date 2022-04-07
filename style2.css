@@ -1,0 +1,60 @@
+h1 {
+  font-family: "Redressed", cursive;
+  font-size: 75px;
+  color: green;
+}
+
+.text-blur-out {
+  -webkit-animation: text-blur-out 7s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+  animation: text-blur-out 7s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+}
+
+@-webkit-keyframes text-blur-out {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+  100% {
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+@keyframes text-blur-out {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+  100% {
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+body {
+  background-image: url("https://emgoritha12.github.io/EscapeRoomdesign/chichenitza-g4808fba9a_1920.jpg");
+}
+
+.content-task ul {
+  height: 15em;
+  line-height: 5em;
+}
+.content-task ul li {
+  list-style-type: none;
+  display: inline-block;
+  min-height: 6em;
+  min-width: 6em;
+  text-align: center;
+}
+.content-task ul li span {
+  display: inline-block;
+  cursor: pointer;
+}
+.content-task ul li span[draggable=true] {
+  cursor: grab !important;
+}
+.content-task ul li span[draggable=true]:active {
+  cursor: grabbing !important;
+}
+.content-task ul li span.word-empty {
+  border-bottom: 1px solid #000;
+  min-width: 1em;
+}
