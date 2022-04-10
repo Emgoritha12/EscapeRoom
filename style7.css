@@ -1,0 +1,25 @@
+body {background-color: #7DC3A1;}
+ {
+  font-size: 25px;
+font-family: 'Lato', sans-serif;
+}
+body {
+  font-size: 25px;
+}
+
+
+output {
+  display:block;
+  margin-top:10px;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+#inp {
+  margin-top: 15pxx;
+  margin-left: 35px;
+  height: 75px;
+  width: 400px;
+  font-size: 30px;
+  padding: 10px 28px;
+}
