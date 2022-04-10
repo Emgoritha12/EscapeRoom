@@ -1,0 +1,19 @@
+h1{ 
+  font-family: 'Redressed', cursive;
+font-size: 75px; 
+color:#black;
+}
+body {
+  color: white;
+}
+
+html{height:100%;}
+body {
+background:#FF8C00;
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(255,140,0,1) ), to(#100000)  );
+background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(0,0,0,1) 100%);
+
+
+text {
+  color: white;
+}
